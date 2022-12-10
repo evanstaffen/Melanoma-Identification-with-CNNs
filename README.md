@@ -18,7 +18,7 @@ Although MoleSafe has plenty of benefits, it is time-consuming and expensive (~$
 I used the ISIC 2019 Dataset from Kaggle which has 25,331 images of 8 different skin lesion types viewed through a dermatoscope. 
 *all 8 lesions* in photos
 
-I ultimately decided to narrow my image classification down to differentiating between Melanomas and benign moles. 
+I ultimately decided to narrow my image classification down to differentiating between Melanomas (4,577)  and benign moles (9,755). 
 * 3 of mels and benign nevi * in photos
 
 ### Modeling
@@ -37,16 +37,14 @@ The final model's results are displayed below.
 
   > Accuracy: 78.1%
 
-* display graphs of recall and accuracy * in folder
-
-
+* display model architecture, graphs of recall and accuracy * in folder
 
 ### Conclusion
 
 
 ### Next Steps
 
-  - Be able to compound image evaluation with important factors like age, body location and past skin cancer history
+  - Be able to compound image evaluation with important factors like age, sex, body location and past skin cancer history
 
   - Only a subset of diagnoses analysed
 
