@@ -57,7 +57,6 @@ Even though the model could still be improved, I do believe the idea has signifi
 
 Implementing the model on a larger, clinical scale requires much more complex image classification as there are multiple types of skin cancers and hundreds of different types of lesions. As well, this model only takes into account simple photos, where there is clearly one defined lesion, and does not encompass the possible complexities of clinical evaluation. 
 
-
 ### Next Steps
 
   - Be able to compound image evaluation with important factors like age, sex, body location and past skin cancer history
@@ -67,3 +66,13 @@ Implementing the model on a larger, clinical scale requires much more complex im
   - Can only handle simple photos with one lesion in the area
   
 ![inc_anatomicalsite_melanoma_skin_as18](https://user-images.githubusercontent.com/113449546/206876647-ffca0e38-2ebd-4e65-bb2c-2fad45a927ca.jpg)
+
+# Repository Structure
+    ├── Data
+    ├── Images
+    ├── .gitattributes
+    ├── .gitignore
+    ├── Slides.pdf
+    ├── Binary Classification.ipynb
+    └── Preprocessing.ipynb
+    └── README.md
